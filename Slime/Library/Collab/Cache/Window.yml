@@ -1,0 +1,1030 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Albino Variant.prefab
+    - Assets/Albino Variant.prefab.meta
+    - Assets/Fantasy Skybox FREE.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Moonless_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Moonless_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Rainy_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Rainy_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunrise_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunrise_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunset_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunset_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunset_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunset_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Moonless_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Moonless_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunrise_Cubemap.mat
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunrise_Cubemap.mat.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_front.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_front.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_back.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_back.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap.cubemap
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap.cubemap.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_down.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_down.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_left.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_left.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_right.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_right.png.meta
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_up.png
+    - Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_up.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.png.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat.meta
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.png
+    - Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.png.meta
+    - Assets/Fantasy Skybox FREE/Readme.txt
+    - Assets/Fantasy Skybox FREE/Readme.txt.meta
+    - Assets/Fantasy Skybox FREE/ReleaseNotes.txt
+    - Assets/Fantasy Skybox FREE/ReleaseNotes.txt.meta
+    - Assets/Fantasy Skybox FREE/Scenes.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Brush_Flower.png
+    - Assets/Fantasy Skybox FREE/Scenes/Brush_Flower.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png
+    - Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_02.png
+    - Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_02.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.unity
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.unity.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/LightingData.asset
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/LightingData.asset.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/Lightmap-0_comp_dir.png
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/Lightmap-0_comp_dir.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/Lightmap-0_comp_light.exr
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/Lightmap-0_comp_light.exr.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/ReflectionProbe-0.exr
+    - Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/ReflectionProbe-0.exr.meta
+    - Assets/Fantasy Skybox FREE/Scenes/SampleTerrain.asset
+    - Assets/Fantasy Skybox FREE/Scenes/SampleTerrain.asset.meta
+    - Assets/Fantasy Skybox FREE/Scenes/TerrainDirt.terrainlayer
+    - Assets/Fantasy Skybox FREE/Scenes/TerrainDirt.terrainlayer.meta
+    - Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer
+    - Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer.meta
+    - Assets/Fantasy Skybox FREE/Scenes/TerrainRock.terrainlayer
+    - Assets/Fantasy Skybox FREE/Scenes/TerrainRock.terrainlayer.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Diffuse.png
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Diffuse.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Normal.png
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Normal.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png
+    - Assets/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png.meta
+    - Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png
+    - Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png.meta
+    - Assets/FantasyEnvironments.meta
+    - Assets/FantasyEnvironments/Environments.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves
+      1.mat
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves
+      1.mat.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Oak_bark.png
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Oak_bark.png.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark1.png
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark1.png.meta
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/oak_leaves.tga
+    - Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/oak_leaves.tga.meta
+    - Assets/FantasyEnvironments/Environments/FBX/Flower1.FBX.meta
+    - Assets/FantasyEnvironments/Environments/FBX/Mushroom1.FBX
+    - Assets/FantasyEnvironments/Environments/FBX/Mushroom1.FBX.meta
+    - Assets/FantasyEnvironments/Environments/FBX/Rock1.fbx
+    - Assets/FantasyEnvironments/Environments/FBX/Rock1.fbx.meta
+    - Assets/FantasyEnvironments/Environments/Materials.meta
+    - Assets/FantasyEnvironments/Environments/Materials/Plant.mat.meta
+    - Assets/FantasyEnvironments/Environments/Prefabs.meta
+    - Assets/FantasyEnvironments/Environments/Prefabs/Flower1.prefab.meta
+    - Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab
+    - Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab.meta
+    - Assets/FantasyEnvironments/Environments/Prefabs/Mushroom1.prefab
+    - Assets/FantasyEnvironments/Environments/Prefabs/Mushroom1.prefab.meta
+    - Assets/FantasyEnvironments/Environments/README.txt
+    - Assets/FantasyEnvironments/Environments/README.txt.meta
+    - Assets/FantasyEnvironments/Environments/Scenes.meta
+    - Assets/FantasyEnvironments/Environments/Terrain.asset
+    - Assets/FantasyEnvironments/Environments/Terrain.asset.meta
+    - Assets/FantasyEnvironments/Environments/Textures/Plant.tga
+    - Assets/FantasyEnvironments/Environments/Textures/Plant.tga.meta
+    - Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade.meta
+    - Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer
+    - Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer.meta
+    - Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer
+    - Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer.meta
+    - Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga
+    - Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga.meta
+    - Assets/FantasyEnvironments/Environments/Textures/ground_road.tga.meta
+    - Assets/FourEvilDragonsPBR.meta
+    - Assets/FourEvilDragonsPBR/Animations.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Horn Attack.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Sleep.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/die.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/getHit.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/getHit.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle02.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle02.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/run.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/run.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkBack.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkBack.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkRight.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fireball Shoot.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fireball Shoot.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Forward.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Forward.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Get Hit.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Get Hit.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Idle.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Idle.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Land.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Run.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Run.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Scream.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Tail Attack.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Walk.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Defend.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Defend.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Run.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/die.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle01.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Defend.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Defend.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyFlame.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyFlame.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Land.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Run.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Run.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Sleep.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Walk.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Walk.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackMouth.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/getHit.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/getHit.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle01.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle02.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle02.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx
+    - Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx.meta
+    - Assets/FourEvilDragonsPBR/Animators.meta
+    - Assets/FourEvilDragonsPBR/Animators/NightmareCTRL.controller
+    - Assets/FourEvilDragonsPBR/Animators/NightmareCTRL.controller.meta
+    - Assets/FourEvilDragonsPBR/Animators/SouleaterCTRL.controller
+    - Assets/FourEvilDragonsPBR/Animators/SouleaterCTRL.controller.meta
+    - Assets/FourEvilDragonsPBR/Animators/TerrorbringerCTRL.controller
+    - Assets/FourEvilDragonsPBR/Animators/TerrorbringerCTRL.controller.meta
+    - Assets/FourEvilDragonsPBR/Animators/UsurperCTRL.controller
+    - Assets/FourEvilDragonsPBR/Animators/UsurperCTRL.controller.meta
+    - Assets/FourEvilDragonsPBR/Materials.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonNightmare.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonNightmare/GreenPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonNightmare/GreenPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonNightmare/RedPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonNightmare/RedPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/BluePBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/BluePBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/GreenPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/GreenPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreenPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreenPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/RedPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/RedPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper/BluePBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper/BluePBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper/DarkPBR.mat
+    - Assets/FourEvilDragonsPBR/Materials/DragonUsurper/DarkPBR.mat.meta
+    - Assets/FourEvilDragonsPBR/Materials/Stage.mat
+    - Assets/FourEvilDragonsPBR/Materials/Stage.mat.meta
+    - Assets/FourEvilDragonsPBR/Mesh.meta
+    - Assets/FourEvilDragonsPBR/Mesh/DragonSoulEaterMesh.fbx
+    - Assets/FourEvilDragonsPBR/Mesh/DragonSoulEaterMesh.fbx.meta
+    - Assets/FourEvilDragonsPBR/Mesh/DragonTerrorBringerMesh.fbx
+    - Assets/FourEvilDragonsPBR/Mesh/DragonTerrorBringerMesh.fbx.meta
+    - Assets/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx
+    - Assets/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx.meta
+    - Assets/FourEvilDragonsPBR/Mesh/DragonUsurperMesh.fbx
+    - Assets/FourEvilDragonsPBR/Mesh/DragonUsurperMesh.fbx.meta
+    - Assets/FourEvilDragonsPBR/Mesh/Stage.fbx
+    - Assets/FourEvilDragonsPBR/Mesh/Stage.fbx.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonNightmare.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Blue.prefab
+    - Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Blue.prefab.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab
+    - Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Green.prefab
+    - Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Green.prefab.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Red.prefab
+    - Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Red.prefab.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonUsurper.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab
+    - Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab.meta
+    - Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab
+    - Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab.meta
+    - Assets/FourEvilDragonsPBR/Scene.meta
+    - Assets/FourEvilDragonsPBR/Scene/MainScene.unity
+    - Assets/FourEvilDragonsPBR/Scene/MainScene.unity.meta
+    - Assets/FourEvilDragonsPBR/Scene/NightmareScene.unity.meta
+    - Assets/FourEvilDragonsPBR/Scene/SoulEaterScene.unity
+    - Assets/FourEvilDragonsPBR/Scene/SoulEaterScene.unity.meta
+    - Assets/FourEvilDragonsPBR/Scene/TerrorBringerScene.unity
+    - Assets/FourEvilDragonsPBR/Scene/TerrorBringerScene.unity.meta
+    - Assets/FourEvilDragonsPBR/Scene/UsurperScene.unity
+    - Assets/FourEvilDragonsPBR/Scene/UsurperScene.unity.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Metallic.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Metallic.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Metallic.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Metallic.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Metallic.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Metallic.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Normal.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Normal.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Normal.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Normal.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_AlbedoTransparency.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_AlbedoTransparency.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_MetallicSmoothness.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_MetallicSmoothness.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Normal.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Normal.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/Ambient Occlusion
+      Map from Mesh lambert1.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/Ambient Occlusion
+      Map from Mesh lambert1.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/AO.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/MetalSmoothness.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/MetalSmoothness.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Normal.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Normal.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/MetalSmooth.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/MetalSmooth.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Emission.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Emission.png.meta
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Normal.png
+    - Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Normal.png.meta
+    - Assets/New Animator Controller.controller
+    - Assets/New Animator Controller.controller.meta
+    - Assets/New Terrain 1.asset
+    - Assets/New Terrain 1.asset.meta
+    - Assets/New Terrain.asset
+    - Assets/New Terrain.asset.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Game.unity
+    - Assets/Scenes/Game.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Script.meta
+    - Assets/Script/AI_Movement.cs
+    - Assets/Script/AI_Movement.cs.meta
+    - Assets/Script/InteractableObject.cs
+    - Assets/Script/InteractableObject.cs.meta
+    - Assets/Script/PlayerMovement.cs
+    - Assets/Script/PlayerMovement.cs.meta
+    - Assets/Script/SelectionManager.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 1
