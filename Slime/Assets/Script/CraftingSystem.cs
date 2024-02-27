@@ -137,7 +137,7 @@ public class CraftingSystem : MonoBehaviour
     {
         yield return 0;
 
-        InventorySystem.Instance.ReCalculareList();
+        InventorySystem.Instance.ReCalculeList();
 
         RefreshNeededItems();
     }

@@ -365,6 +365,7 @@
 "Assets/Script/DragDrop.cs"
 "Assets/Script/HealthBar.cs"
 "Assets/Script/InteractableObject.cs"
+"Assets/Script/InventoryItem.cs"
 "Assets/Script/InventorySystem.cs"
 "Assets/Script/ItemSlot.cs"
 "Assets/Script/MouseMovement.cs"
