@@ -374,6 +374,7 @@
 "Assets/Script/PlayerState.cs"
 "Assets/Script/SelectionManager.cs"
 "Assets/Script/StamonaBar.cs"
+"Assets/Script/TrashSlot.cs"
 -langversion:9.0
 
 /deterministic
