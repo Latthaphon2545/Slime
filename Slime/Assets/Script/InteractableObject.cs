@@ -14,11 +14,18 @@ public class InteractableObject : MonoBehaviour
 
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0)) && playerInRange && SelectionManager.Instance.onTarget)
+        if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0)) && playerInRange && SelectionManager.Instance.onTarget && SelectionManager.Instance.selectedObject == gameObject)
         {
-            InventorySystem.Instance.AddToInventory(ItemName);
-            Debug.Log("item in inventory");
-            Destroy(gameObject);
+            if(!InventorySystem.Instance.checkIsFull())
+            {
+                InventorySystem.Instance.AddToInventory(ItemName);
+                Debug.Log("Item add to inventory");
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.Log("Inventory Full!!!!!!!!!!!!!!!!");
+            }
         }
     }
 

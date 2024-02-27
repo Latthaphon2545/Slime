@@ -10,6 +10,8 @@ public class InventorySystem : MonoBehaviour
 
     public GameObject inventoryScreenUI;
 
+    public GameObject bagUI;
+
     public List<GameObject> slotList = new List<GameObject>();
 
     public List<string> itemList = new List<string>();
@@ -19,8 +21,6 @@ public class InventorySystem : MonoBehaviour
     private GameObject whatSlotToEquip;
 
     public bool isOpen;
-
-    public bool isFull;
 
 
     private void Awake()
@@ -45,7 +45,7 @@ public class InventorySystem : MonoBehaviour
 
     private void PopulateSlotList()
     {
-        foreach(Transform child in inventoryScreenUI.transform)
+        foreach(Transform child in bagUI.transform)
         {
             if(child.CompareTag("Slot"))
             {
@@ -60,7 +60,6 @@ public class InventorySystem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I) && !isOpen)
         {
 
-            Debug.Log("i is pressed");
             inventoryScreenUI.SetActive(true);
             isOpen = true;
             Cursor.lockState = CursorLockMode.None;
@@ -69,31 +68,90 @@ public class InventorySystem : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.I) && isOpen)
         {
             inventoryScreenUI.SetActive(false);
-            isOpen = false;
             Cursor.lockState = CursorLockMode.Locked;
+            isOpen = false;
         }
     }
 
-
     public void AddToInventory(String itemName)
     {
-        if (checkIsFull()
-        {
-            Debug.Log("Inventory is full.");
-        }
-        else
-        {
-            whatSlotToEquip = FindNextEmptySlot();
-        }
+        whatSlotToEquip = FindNextEmptySlot();
+
+        itemToAdd = (GameObject)Instantiate(Resources.Load<GameObject>(itemName), whatSlotToEquip.transform.position, whatSlotToEquip.transform.rotation);
+        itemToAdd.transform.SetParent(whatSlotToEquip.transform);
+
+        itemList.Add(itemName);
     }
 
     private GameObject FindNextEmptySlot()
     {
-        
+        foreach(GameObject slot in slotList)
+        {
+            if(slot.transform.childCount == 0)
+            {
+                return slot;
+            }
+
+        }
+        return new GameObject();
     }
 
-    private bool checkIsFull()
+    public bool checkIsFull()
     {
-        
+        int counter = 0;
+        foreach(GameObject slot in slotList)
+        {
+            if (slot.transform.childCount > 0)
+            {
+                counter++;
+            }
+        }
+
+
+        if(counter == slotList.Count)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
+
+    public void RemoveItem(string nameToRemove, int amountToRemove)
+    {
+        int counter = amountToRemove;
+
+        for (var i = slotList.Count - 1; i >= 0; i--)
+        {
+            if (slotList[i].transform.childCount > 0)
+            {
+                if (slotList[i].transform.GetChild(0).name == nameToRemove + "(Clone)" && counter !=0 )
+                {
+                    Destroy(slotList[i].transform.GetChild(0).gameObject);
+
+                    counter--;
+                }
+            }
+        }
+    }
+
+
+    public void ReCalculareList()
+    {
+        itemList.Clear();
+
+        foreach (GameObject slot in slotList)
+        {
+            if (slot.transform.childCount > 0)
+            {
+                string name = slot.transform.GetChild(0).name;
+                string str = "(Clone)";
+                string result = name.Replace(str,"");
+
+                itemList.Add(result);
+            }
+        }
+    }
+
 }
