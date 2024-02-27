@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventorySystem : MonoBehaviour
 {
@@ -21,6 +23,11 @@ public class InventorySystem : MonoBehaviour
     private GameObject whatSlotToEquip;
 
     public bool isOpen;
+
+    public GameObject pickupAlert;
+    public TMP_Text pickupName;
+    public Image pickupImg;
+
 
 
     private void Awake()
@@ -81,6 +88,21 @@ public class InventorySystem : MonoBehaviour
         itemToAdd.transform.SetParent(whatSlotToEquip.transform);
 
         itemList.Add(itemName);
+
+        Sprite sprite = itemToAdd.GetComponent<Image>().sprite;
+        TriggerPickupPopUp(itemName, sprite);
+
+
+        ReCalculareList();
+        CraftingSystem.Instance.RefreshNeededItems();
+    }
+
+    void TriggerPickupPopUp(string itemName, Sprite itemSpriteImg)
+    {
+        pickupAlert.SetActive(true);
+
+        pickupName.text = itemName;
+        pickupImg.sprite = itemSpriteImg;
     }
 
     private GameObject FindNextEmptySlot()
@@ -134,6 +156,9 @@ public class InventorySystem : MonoBehaviour
                 }
             }
         }
+
+        ReCalculareList();
+        CraftingSystem.Instance.RefreshNeededItems();
     }
 
 

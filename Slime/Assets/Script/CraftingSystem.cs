@@ -9,6 +9,7 @@ public class CraftingSystem : MonoBehaviour
 
     public GameObject craftingScreenUI;
     public GameObject detailScreenUI;
+    public GameObject auraUI;
 
     public List<string> inventoryItemList = new List<string>();
 
@@ -66,8 +67,6 @@ public class CraftingSystem : MonoBehaviour
         }
 
         StartCoroutine(Calculate());
-
-        RefreshNeededItems();
     }
 
     void OpenToolsCategory()
@@ -78,9 +77,6 @@ public class CraftingSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        RefreshNeededItems();
-
 
         if (Input.GetKeyDown(KeyCode.C) && !isOpen)
         {
@@ -99,9 +95,8 @@ public class CraftingSystem : MonoBehaviour
         }
     }
 
-    private void RefreshNeededItems()
+    public void RefreshNeededItems()
     {
-
         int apple_count = 0;
         int carrot_count = 0;
 
@@ -137,8 +132,10 @@ public class CraftingSystem : MonoBehaviour
 
     public IEnumerator Calculate()
     {
-        yield return new WaitForSeconds(1f);
+        yield return 0;
 
         InventorySystem.Instance.ReCalculareList();
+
+        RefreshNeededItems();
     }
 }

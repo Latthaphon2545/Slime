@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class SelectionManager : MonoBehaviour
 {
@@ -8,14 +9,17 @@ public class SelectionManager : MonoBehaviour
     public bool onTarget;
 
     public GameObject interaction_Info_UI;
-    private TMP_Text interaction_text;
+    private Text interaction_text;
 
     public GameObject selectedObject;
+
+    public Image centerDotIcon;
+    public Image centerHandIcon;
 
     private void Start()
     {
         onTarget = false;
-        interaction_text = interaction_Info_UI.GetComponent<TMP_Text>();
+        interaction_text = interaction_Info_UI.GetComponent<Text>();
     }
 
     private void Awake()
@@ -46,12 +50,25 @@ public class SelectionManager : MonoBehaviour
 
                 interaction_text.text = Interactable.GetItemName();
                 interaction_Info_UI.SetActive(true);
+                if (Interactable.CompareTag("pickable"))
+                {
+                    centerDotIcon.gameObject.SetActive(false);
+                    centerHandIcon.gameObject.SetActive(true);
+                }
+                else
+                {
+                    centerDotIcon.gameObject.SetActive(true);
+                    centerHandIcon.gameObject.SetActive(false);
+                }
             }
             else
             {
                 onTarget = false;
 
                 interaction_Info_UI.SetActive(false);
+
+                centerDotIcon.gameObject.SetActive(true);
+                centerHandIcon.gameObject.SetActive(false);
             }
 
         }
@@ -59,6 +76,9 @@ public class SelectionManager : MonoBehaviour
         {
             onTarget = false;
             interaction_Info_UI.SetActive(false);
+
+            centerDotIcon.gameObject.SetActive(true);
+            centerHandIcon.gameObject.SetActive(false);
         }
     }
 }
