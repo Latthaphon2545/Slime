@@ -26,6 +26,12 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public float healthEffect;
     public float staminaEffect;
 
+    public bool isEquippable;
+    private GameObject itemPendingEquipping;
+    public bool isInsideQuickSlots;
+
+    public bool isSelected;
+
 
     private void Start()
     {
@@ -34,6 +40,18 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         itemInfoUI_itemDescription = itemInfoUI.transform.Find("itemDescription").GetComponent<Text>();
         itemInfoUI_itemFunctionality = itemInfoUI.transform.Find("itemFunctionality").GetComponent<Text>();
         itemInfoUI_img = itemInfoUI.transform.Find("SelectedItem").transform.Find("Icon").GetComponent<Image>();
+    }
+
+    void Update()
+    {
+        if (isSelected)
+        {
+            gameObject.GetComponent<DragDrop>().enabled = false;
+        }
+        else
+        {
+            gameObject.GetComponent<DragDrop>().enabled = true;
+        }
     }
 
     // Triggered when the mouse enters into the area of the item that has this script.
@@ -55,7 +73,7 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     //// Triggered when the mouse is clicked over the item that has this script.
     public void OnPointerDown(PointerEventData eventData)
     {
-        //Right Mouse Button Click on
+        // Right Mouse Button Click on
         if (eventData.button == PointerEventData.InputButton.Right)
         {
             if (isConsumable)
@@ -63,6 +81,12 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
                 // Setting this specific gameobject to be the item we want to destroy later
                 itemPendingConsumption = gameObject;
                 consumingFunction(healthEffect, staminaEffect);
+            }
+
+            if (isEquippable && isInsideQuickSlots == false && EquipSystem.Instance.CheckIfFull() == false)
+            {
+                EquipSystem.Instance.AddToQuickSlots(gameObject);
+                isInsideQuickSlots = true;
             }
         }
     }
@@ -91,7 +115,6 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     }
 
-
     private static void healthEffectCalculation(float healthEffect)
     {
         // --- Health --- //
@@ -111,7 +134,6 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             }
         }
     }
-
 
     private static void caloriesEffectCalculation(float caloriesEffect)
     {

@@ -73,6 +73,7 @@ public class InventorySystem : MonoBehaviour
             inventoryScreenUI.SetActive(true);
             isOpen = true;
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
 
             SelectionManager.Instance.DisableSelection();
             SelectionManager.Instance.GetComponent<SelectionManager>().enabled = false;
@@ -81,6 +82,7 @@ public class InventorySystem : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.I) && isOpen)
         {
             inventoryScreenUI.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             isOpen = false;
 

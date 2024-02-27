@@ -122,3 +122,6 @@ MonoBehaviour:
   isConsumable: 1
   healthEffect: 500
   staminaEffect: 0
+  isEquippable: 0
+  isNotEquipped: 0
+  isSelected: 0
