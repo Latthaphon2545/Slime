@@ -16,7 +16,8 @@ public class InteractableObject : MonoBehaviour
     {
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0)) && playerInRange && SelectionManager.Instance.onTarget)
         {
-            Debug.Log("item");
+            InventorySystem.Instance.AddToInventory(ItemName);
+            Debug.Log("item in inventory");
             Destroy(gameObject);
         }
     }
