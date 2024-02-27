@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class SelectionManager : MonoBehaviour
 {
@@ -80,5 +81,21 @@ public class SelectionManager : MonoBehaviour
             centerDotIcon.gameObject.SetActive(true);
             centerHandIcon.gameObject.SetActive(false);
         }
+    }
+
+    public void DisableSelection()
+    {
+        centerHandIcon.enabled = false;
+        centerDotIcon.enabled = false;
+        interaction_Info_UI.SetActive(false);
+
+        selectedObject = null;
+    }
+
+    internal void EndableSelection()
+    {
+        centerHandIcon.enabled = true;
+        centerDotIcon.enabled = true;
+        interaction_Info_UI.SetActive(true);
     }
 }
