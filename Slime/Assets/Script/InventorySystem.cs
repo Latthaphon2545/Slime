@@ -27,8 +27,7 @@ public class InventorySystem : MonoBehaviour
     public GameObject pickupAlert;
     public TMP_Text pickupName;
     public Image pickupImg;
-
-
+    private Coroutine pickupAlertCoroutine;
 
     private void Awake()
     {
@@ -103,6 +102,20 @@ public class InventorySystem : MonoBehaviour
 
         pickupName.text = itemName;
         pickupImg.sprite = itemSpriteImg;
+
+        if (pickupAlertCoroutine != null)
+        {
+            StopCoroutine(pickupAlertCoroutine);
+        }
+
+        pickupAlertCoroutine = StartCoroutine(HidePickupAlertAfterDelay(1.5f));
+    }
+
+    IEnumerator HidePickupAlertAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        pickupAlert.SetActive(false);
     }
 
     private GameObject FindNextEmptySlot()

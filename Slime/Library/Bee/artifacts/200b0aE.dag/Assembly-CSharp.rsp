@@ -363,13 +363,16 @@
 "Assets/Script/BluePrint.cs"
 "Assets/Script/CraftingSystem.cs"
 "Assets/Script/DragDrop.cs"
+"Assets/Script/HealthBar.cs"
 "Assets/Script/InteractableObject.cs"
 "Assets/Script/InventorySystem.cs"
 "Assets/Script/ItemSlot.cs"
 "Assets/Script/MouseMovement.cs"
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/PlayerMovement1.cs"
+"Assets/Script/PlayerState.cs"
 "Assets/Script/SelectionManager.cs"
+"Assets/Script/StamonaBar.cs"
 -langversion:9.0
 
 /deterministic

@@ -9,7 +9,8 @@ public class CraftingSystem : MonoBehaviour
 
     public GameObject craftingScreenUI;
     public GameObject detailScreenUI;
-    public GameObject auraUI;
+
+    public Text nameItem;
 
     public List<string> inventoryItemList = new List<string>();
 
@@ -51,6 +52,8 @@ public class CraftingSystem : MonoBehaviour
         craftBTN = craftingScreenUI.transform.Find("ToolsButton").transform.Find("buttonCraft").GetComponent<Button>();
 
         craftBTN.onClick.AddListener(delegate { craftAnyItem(AxeBLP); });
+
+        nameItem.text = AxeBLP.itemName;
 
 
     }
