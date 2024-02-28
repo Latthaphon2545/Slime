@@ -4,15 +4,41 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static SoundManager Instance { get; set; }
+
+    // FX
+    public AudioSource dropItemSound;
+    public AudioSource toolSwingSound;
+    public AudioSource chopSound;
+    public AudioSource pickupSound;
+    public AudioSource walkSound;
+    public AudioSource jumpSound;
+
+
+    //Music
+    public AudioSource startingZoneBGMusic;
+    public AudioSource natureBGMusic;
+
+
+    private void Awake()
     {
-        
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void playSound(AudioSource soundToPlay)
     {
-        
+        if (!soundToPlay.isPlaying)
+        {
+            soundToPlay.Play();
+        }
     }
+
 }

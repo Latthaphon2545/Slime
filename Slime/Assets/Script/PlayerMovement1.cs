@@ -18,6 +18,10 @@ public class PlayerMovement1 : MonoBehaviour
 
     bool isGrounded;
 
+
+    private Vector3 lastPosition = new Vector3(0f, 0f, 0f);
+    public bool playerIsMoving;
+
     // Update is called once per frame
     void Update()
     {
@@ -41,11 +45,26 @@ public class PlayerMovement1 : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             //the equation for jumping
+            SoundManager.Instance.playSound(SoundManager.Instance.jumpSound);
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+
+        if(lastPosition != gameObject.transform.position && isGrounded == true)
+        {
+            playerIsMoving = true;
+            SoundManager.Instance.playSound(SoundManager.Instance.walkSound);
+        }
+        else
+        {
+            playerIsMoving = false;
+            SoundManager.Instance.walkSound.Stop();
+        }
+
+        lastPosition = gameObject.transform.position;
     }
 }

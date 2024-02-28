@@ -28,11 +28,19 @@ public class EquipableItem : MonoBehaviour
 
             if (selectedTree != null)
             {
+                SoundManager.Instance.playSound(SoundManager.Instance.chopSound);
                 selectedTree.GetComponent<ChoppableTree>().GetHit();
             }
 
-
+            StartCoroutine(SwingSoundDelay());
             animator.SetTrigger("hit");
         }
+    }
+
+
+    IEnumerator SwingSoundDelay()
+    {
+        yield return new WaitForSeconds(0.25f);
+        SoundManager.Instance.playSound(SoundManager.Instance.toolSwingSound);
     }
 }

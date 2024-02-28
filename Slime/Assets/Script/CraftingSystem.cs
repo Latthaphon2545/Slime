@@ -89,6 +89,7 @@ public class CraftingSystem : MonoBehaviour
     {
         InventorySystem.Instance.AddToInventory(blueprintTocraft.itemName);
 
+
         for (var i = 0; i < blueprintTocraft.numOfRequirements; i++)
         {
             InventorySystem.Instance.RemoveItem(blueprintTocraft.itemReq[i], blueprintTocraft.itemreqAmount[i]);
