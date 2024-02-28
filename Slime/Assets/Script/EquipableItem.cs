@@ -23,6 +23,15 @@ public class EquipableItem : MonoBehaviour
             CraftingSystem.Instance.isOpen == false &&
             SelectionManager.Instance.handVisible == false) // เมาส์ซ้าย
         {
+
+            GameObject selectedTree = SelectionManager.Instance.selectedTree;
+
+            if (selectedTree != null)
+            {
+                selectedTree.GetComponent<ChoppableTree>().GetHit();
+            }
+
+
             animator.SetTrigger("hit");
         }
     }

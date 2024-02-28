@@ -358,13 +358,15 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs"
+"Assets/assetFormUnity/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs"
 "Assets/Script/AI_Movement.cs"
 "Assets/Script/BluePrint.cs"
+"Assets/Script/ChoppableTree.cs"
 "Assets/Script/CraftingSystem.cs"
 "Assets/Script/DragDrop.cs"
 "Assets/Script/EquipableItem.cs"
 "Assets/Script/EquipSystem.cs"
+"Assets/Script/GlobalState.cs"
 "Assets/Script/HealthBar.cs"
 "Assets/Script/InteractableObject.cs"
 "Assets/Script/InventoryItem.cs"
@@ -377,6 +379,7 @@
 "Assets/Script/SelectionManager.cs"
 "Assets/Script/StamonaBar.cs"
 "Assets/Script/TrashSlot.cs"
+"Assets/Script/TreeHealthBar.cs"
 -langversion:9.0
 
 /deterministic

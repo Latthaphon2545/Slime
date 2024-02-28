@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8267426532504048963}
   - component: {fileID: 2121783955}
   - component: {fileID: 6567983261833507453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Axe_Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,3 +169,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41304ae32594d4c929daafcbc1b00939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}

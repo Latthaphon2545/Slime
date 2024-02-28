@@ -19,6 +19,9 @@ public class SelectionManager : MonoBehaviour
 
     public bool handVisible;
 
+    public GameObject selectedTree;
+    public GameObject chopHloder;
+
     private void Start()
     {
         onTarget = false;
@@ -45,6 +48,30 @@ public class SelectionManager : MonoBehaviour
             var selectionTransform = hit.transform;
 
             InteractableObject Interactable = selectionTransform.GetComponent<InteractableObject>();
+
+
+            ChoppableTree choppableTree = selectionTransform.GetComponent<ChoppableTree>();
+
+
+            if (choppableTree && choppableTree.playerInRange)
+            {
+                choppableTree.canBeChopped = true;
+                selectedTree = choppableTree.gameObject;
+                chopHloder.gameObject.SetActive(true);
+            }
+            else
+            {
+                if(selectedTree != null)
+                {
+                    selectedTree.gameObject.GetComponent<ChoppableTree>().canBeChopped = false;
+                    selectedTree = null;
+                    chopHloder.gameObject.SetActive(true);
+                }
+
+                chopHloder.gameObject.SetActive(false);
+            }
+
+
 
             if (Interactable && Interactable.playerInRange)
             {

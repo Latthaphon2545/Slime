@@ -1,0 +1,246 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/g.a_me__/Documents/GitHub/Slime/Slime
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54744
+Successfully changed project path to: /Users/g.a_me__/Documents/GitHub/Slime/Slime
+/Users/g.a_me__/Documents/GitHub/Slime/Slime
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 73.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/g.a_me__/Documents/GitHub/Slime/Slime/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56590
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001651 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+[usbmuxd] Attached: 165 00008101-00111C340C11001E
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.450 seconds
+Domain Reload Profiling:
+	ReloadAssembly (450ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (335ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/g.a_me__/Documents/GitHub/Slime/Slime/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/g.a_me__/Documents/GitHub/Slime/Slime/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3756 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (40.7 KB). Loaded Objects now: 4246.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 2.589125 ms (FindLiveObjects: 0.137208 ms CreateObjectMapping: 0.057625 ms MarkObjects: 2.161292 ms  DeleteObjects: 0.232458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90888.175908 seconds.
+  path: Assets/RPG Pack/Prefabs
+  artifactKey: Guid(c1d1fd12bd047fd45a1bf43d24d5b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Pack/Prefabs using Guid(c1d1fd12bd047fd45a1bf43d24d5b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4683dded88abdf9ddac12881cd82268') in 0.004843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.086932 seconds.
+  path: Assets/UltraMare/Fantastic UI Starter Pack
+  artifactKey: Guid(6fc79a0b9ac559746aead8dc692d3056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UltraMare/Fantastic UI Starter Pack using Guid(6fc79a0b9ac559746aead8dc692d3056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4b0ade95089d2d1319aff23650306e') in 0.000925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.684741 seconds.
+  path: Assets/UltraMare/Fantastic UI Starter Pack/Material
+  artifactKey: Guid(da82720f0b4182142a4468e695d8f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UltraMare/Fantastic UI Starter Pack/Material using Guid(da82720f0b4182142a4468e695d8f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f2218b55164246315bda42b6036ff8') in 0.001073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.164990 seconds.
+  path: Assets/assetFormUnity/PBR_Materials
+  artifactKey: Guid(6d0fe78a2d5434d63acce417b0a73878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/PBR_Materials using Guid(6d0fe78a2d5434d63acce417b0a73878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3b616e983b5bbb66dbcb196f17e362') in 0.000865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.318770 seconds.
+  path: Assets/assetFormUnity/500_Materials/Materials/Wood
+  artifactKey: Guid(11a322bb277174ae6af3d76c84727887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Materials/Wood using Guid(11a322bb277174ae6af3d76c84727887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd780d76d91f7e60fd2c4988b76ab8f1f') in 0.001194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029338 seconds.
+  path: Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_1.mat
+  artifactKey: Guid(fe5cd8389dc229c4fbb8a8d1bfad95a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_1.mat using Guid(fe5cd8389dc229c4fbb8a8d1bfad95a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859a4f015463613ecc97c913fd6e74d8') in 0.256540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_4.mat
+  artifactKey: Guid(ddd2ff525b6242a419a044b5b5b2ca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_4.mat using Guid(ddd2ff525b6242a419a044b5b5b2ca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b16bdb916ff0e4d5a58fcbfd969daa6') in 0.022158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_3.mat
+  artifactKey: Guid(dc507f3b666335149b0cb9b96c83826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_3.mat using Guid(dc507f3b666335149b0cb9b96c83826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eeceb570ecc9dcc25675ca733882ac') in 0.021144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_5.mat
+  artifactKey: Guid(8fc6644c24b3ad5448cfc628fd2cd733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_5.mat using Guid(8fc6644c24b3ad5448cfc628fd2cd733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed2f6800c39f3c4944b3fb36aaf2312') in 0.020518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_8.mat
+  artifactKey: Guid(47e70f4d1af2d2045a9e09547572f23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Materials/Wood/mWood_8.mat using Guid(47e70f4d1af2d2045a9e09547572f23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32b2fa0fdfd62cf85308d30df1fbe62') in 0.023665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.708648 seconds.
+  path: Assets/assetFormUnity/500_Materials/Scenes/ProceduralSkybox.mat
+  artifactKey: Guid(99ea846b86fa39744835672f1abc18d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/500_Materials/Scenes/ProceduralSkybox.mat using Guid(99ea846b86fa39744835672f1abc18d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3585f32f06e4da15d0ba465ef1f177cc') in 0.186506 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
