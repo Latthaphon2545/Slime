@@ -18,7 +18,7 @@ public class HealthBar : MonoBehaviour
         slider = GetComponent<Slider>();
     }
 
-    void Update()
+    private void Update()
     {
         currentHealth = playerState.GetComponent<PlayerState>().currentHealth;
         maxHealth = playerState.GetComponent<PlayerState>().maxHealth;

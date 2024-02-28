@@ -12,10 +12,13 @@ public class ChoppableTree : MonoBehaviour
     public float maxTreeHealth;
     public float currentTreeHealth;
 
+    public Animator animator;
+
 
     private void Start()
     {
         currentTreeHealth = maxTreeHealth;
+        animator = transform.parent.transform.parent.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -42,7 +45,28 @@ public class ChoppableTree : MonoBehaviour
     public IEnumerator hit()
     {
         yield return new WaitForSeconds(0.5f);
+
+        animator.SetTrigger("shake");
+
+        if(currentTreeHealth <= 0)
+        {
+            TreeIsDead();
+        }
+
         currentTreeHealth -= 1;
+    }
+
+    void TreeIsDead()
+    {
+        Vector3 treePosition = transform.position;
+
+        Destroy(transform.parent.transform.parent.gameObject);
+        canBeChopped = false;
+        SelectionManager.Instance.selectedTree = null;
+        SelectionManager.Instance.chopHloder.gameObject.SetActive(false);
+
+        GameObject brokenTree = Instantiate(Resources.Load<GameObject>("Stump"),
+            new Vector3(treePosition.x, treePosition.y+1.5f, treePosition.z), Quaternion.Euler(30, 30, 30));
     }
 
     private void Update()
