@@ -23,6 +23,9 @@ public class CraftingSystem : MonoBehaviour
 
     public bool isOpen;
 
+    public Button toolUIBTN, SurvivlaUIBTN, RefindUIBTN;
+    public GameObject toolUI, SurvivlaUI, RefindUI;
+
     public BluePrint AxeBLP = new BluePrint("Axe", 2, new List<string> { "Apple", "Carrot" }, new List<int> { 3, 3 });
 
 
@@ -46,16 +49,40 @@ public class CraftingSystem : MonoBehaviour
         isOpen = false;
 
         toolBTN = craftingScreenUI.transform.Find("ToolsButton").transform.Find("Icon").GetComponent<Button>();
-        toolBTN.onClick.AddListener(delegate{OpenToolsCategory();});
-
         itemReq = craftingScreenUI.transform.Find("ToolsButton").transform.Find("itemReq").GetComponent<Text>();
         craftBTN = craftingScreenUI.transform.Find("ToolsButton").transform.Find("buttonCraft").GetComponent<Button>();
 
         craftBTN.onClick.AddListener(delegate { craftAnyItem(AxeBLP); });
 
+        toolUIBTN.onClick.AddListener(openToolsUi);
+        SurvivlaUIBTN.onClick.AddListener(openSurvivlaUi);
+        RefindUIBTN.onClick.AddListener(openRefindUi);
+
         nameItem.text = AxeBLP.itemName;
 
 
+    }
+
+    private void openRefindUi()
+    {
+        toolUI.SetActive(false);
+        RefindUI.SetActive(true);
+        SurvivlaUI.SetActive(false);
+        Debug.Log("Eiei");
+    }
+
+    private void openSurvivlaUi()
+    {
+        toolUI.SetActive(false);
+        RefindUI.SetActive(false);
+        SurvivlaUI.SetActive(true);
+    }
+
+    private void openToolsUi()
+    {
+        toolUI.SetActive(true);
+        RefindUI.SetActive(false);
+        SurvivlaUI.SetActive(false);
     }
 
     private void craftAnyItem(BluePrint blueprintTocraft)
@@ -70,11 +97,6 @@ public class CraftingSystem : MonoBehaviour
         }
 
         StartCoroutine(Calculate());
-    }
-
-    void OpenToolsCategory()
-    {
-        detailScreenUI.SetActive(true);
     }
 
     // Update is called once per frame
