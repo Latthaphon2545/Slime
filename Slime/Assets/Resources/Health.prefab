@@ -115,10 +115,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ccf477c8a0247ce8977052d49b8419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrashable: 0
+  isTrashable: 1
   thisName: Health
   thisDescription: "\u0E19\u0E49\u0E33\u0E41\u0E14\u0E07\u0E21\u0E30\u0E19\u0E32\u0E27\u0E42\u0E0B\u0E14\u0E32"
   thisFunctionality: +10 HP
-  isConsumable: 1
+  isConsumable: 0
   healthEffect: 10
   staminaEffect: 0
+  isEquippable: 0
+  isInsideQuickSlots: 0
+  isSelected: 0
