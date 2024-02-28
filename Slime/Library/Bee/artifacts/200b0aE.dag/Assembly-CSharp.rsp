@@ -358,6 +358,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/assetFormUnity/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs"
+"Assets/MainMenuSaveManager.cs"
 "Assets/Script/AI_Movement.cs"
 "Assets/Script/BluePrint.cs"
 "Assets/Script/ChoppableTree.cs"
@@ -382,6 +383,7 @@
 "Assets/Script/StamonaBar.cs"
 "Assets/Script/TrashSlot.cs"
 "Assets/Script/TreeHealthBar.cs"
+"Assets/SettingManager.cs"
 -langversion:9.0
 
 /deterministic
