@@ -363,6 +363,7 @@
 "Assets/Script/BluePrint.cs"
 "Assets/Script/CraftingSystem.cs"
 "Assets/Script/DragDrop.cs"
+"Assets/Script/EquipableItem.cs"
 "Assets/Script/EquipSystem.cs"
 "Assets/Script/HealthBar.cs"
 "Assets/Script/InteractableObject.cs"

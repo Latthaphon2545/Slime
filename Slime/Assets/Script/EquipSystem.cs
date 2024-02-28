@@ -18,6 +18,10 @@ public class EquipSystem : MonoBehaviour
     public int selectedNumber = -1;
     public GameObject selectedItem;
 
+    public GameObject toolHolder;
+
+    public GameObject selectedItemModel;
+
 
     private void Awake()
     {
@@ -83,6 +87,9 @@ public class EquipSystem : MonoBehaviour
                 selectedItem = GetSelecedItem(numberPress);
                 selectedItem.GetComponent<InventoryItem>().isSelected = true;
 
+
+                SetEquippedModel(selectedItem);
+
                 foreach (Transform child in numberHolder.transform)
                 {
                     child.transform.Find("Text").GetComponent<Text>().color = Color.yellow;
@@ -101,6 +108,12 @@ public class EquipSystem : MonoBehaviour
                     selectedItem = null;
                 }
 
+                if (selectedItemModel != null)
+                {
+                    DestroyImmediate(selectedItemModel,gameObject);
+                    selectedItemModel = null;
+                }
+
                 foreach (Transform child in numberHolder.transform)
                 {
                     child.transform.Find("Text").GetComponent<Text>().color = Color.yellow;
@@ -109,10 +122,29 @@ public class EquipSystem : MonoBehaviour
         }
     }
 
+    private void SetEquippedModel(GameObject selectedItem)
+    {
+        if (selectedItemModel != null)
+        {
+            DestroyImmediate(selectedItemModel, gameObject);
+            selectedItemModel = null;
+        }
+
+        string selectedItemName = selectedItem.name.Replace("(Clone)", "");
+        selectedItemModel = Instantiate(Resources.Load<GameObject>(selectedItemName + "_Model"),
+            new Vector3(-0.44f, 0.51f, 1.04f), Quaternion.Euler(25.8f, -54.9f, -29f));
+
+        selectedItemModel.transform.SetParent(toolHolder.transform, false);
+    }
+
+
+
     GameObject GetSelecedItem(int numberPress)
     {
         return quickSlotsList[numberPress - 1].transform.GetChild(0).gameObject;
     }
+
+
 
     bool CheckIfSlotIsFull(int slotNumber)
     {
@@ -126,6 +158,8 @@ public class EquipSystem : MonoBehaviour
         }
     }
 
+
+
     private void PopulateSlotList()
     {
         foreach (Transform child in quickSlotsPanel.transform)
@@ -136,6 +170,8 @@ public class EquipSystem : MonoBehaviour
             }
         }
     }
+
+
 
     public void AddToQuickSlots(GameObject itemToEquip)
     {
@@ -149,6 +185,8 @@ public class EquipSystem : MonoBehaviour
     }
 
 
+
+
     private GameObject FindNextEmptySlot()
     {
         foreach (GameObject slot in quickSlotsList)
@@ -160,6 +198,8 @@ public class EquipSystem : MonoBehaviour
         }
         return new GameObject();
     }
+
+
 
     public bool CheckIfFull()
     {
@@ -183,4 +223,6 @@ public class EquipSystem : MonoBehaviour
             return false;
         }
     }
+
+
 }
