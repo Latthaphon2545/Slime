@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Monster : MonoBehaviour
@@ -9,6 +10,8 @@ public class Monster : MonoBehaviour
 
     [SerializeField] int currentHealth;
     [SerializeField] int maxHealth;
+
+    public List<GameObject> itemPrefabs;
 
 
     [Header("Sounds")]
@@ -36,6 +39,12 @@ public class Monster : MonoBehaviour
             {
                 soundChannel.PlayOneShot(mosterDie);
                 Destroy(gameObject);
+
+                int ran = Random.Range(0, itemPrefabs.Count());
+                Vector3 tranformPosition = transform.position;
+                Instantiate(itemPrefabs[ran], new Vector3(tranformPosition.x, tranformPosition.y, tranformPosition.z), Quaternion.identity);
+
+
 
                 monster.SetTrigger("DIE");
                 GetComponent<AI_Movement>().enabled = false;

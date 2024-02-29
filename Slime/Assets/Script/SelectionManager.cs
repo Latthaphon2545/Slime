@@ -78,7 +78,7 @@ public class SelectionManager : MonoBehaviour
                 onTarget = true;
                 selectedObject = Interactable.gameObject;
 
-                interaction_text.text = Interactable.GetItemName();
+                interaction_text.text = Interactable.GetItemName() + "(E)";
                 interaction_Info_UI.SetActive(true);
                 if (Interactable.CompareTag("pickable"))
                 {
@@ -113,7 +113,7 @@ public class SelectionManager : MonoBehaviour
 
             if(monster && monster.playerInRange)
             {
-                interaction_text.text = monster.monsterName;
+                interaction_text.text = monster.monsterName + "(E)";
                 interaction_Info_UI.SetActive(true);
 
                 if (Input.GetMouseButtonDown(0) && EquipSystem.Instance.IsHoldingWeapon())
