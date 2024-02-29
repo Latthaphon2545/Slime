@@ -27,12 +27,14 @@ public class SaveManager : MonoBehaviour
 
     #region || --General Section-- ||
 
+    #region || --Saving-- ||
+
     public void SaveGame()
     {
         AllGameData data = new AllGameData();
         data.playerData = GetPlayerData();
 
-        SaveAllGameData(data);
+        SavingTypeSwitch(data);
     }
 
     private PlayerData GetPlayerData()
@@ -54,7 +56,7 @@ public class SaveManager : MonoBehaviour
         return new PlayerData(playerStats, playerPosition);
     }
 
-    public void SaveAllGameData(AllGameData gameData)
+    public void SavingTypeSwitch(AllGameData gameData)
     {
         if (isSavingJson)
         {
@@ -62,15 +64,63 @@ public class SaveManager : MonoBehaviour
         }
         else
         {
-            saveGameDataToBinaryFile(gameData);
+            SaveGameDataToBinaryFile(gameData);
         }
     }
 
     #endregion
 
+    #region || --Loading-- ||
+
+    public AllGameData LoadindTypeSwitch()
+    {
+        if(isSavingJson)
+        {
+            AllGameData gameData = LoadGameDataFromBinaryFile(); // ใช้ไปก่อน
+            return gameData;
+        }
+        else
+        {
+            AllGameData gameData = LoadGameDataFromBinaryFile();
+            return gameData;
+        }
+    }
+
+    public void LoadGame()
+    {
+        // Player Data
+        SetPlayerData(LoadindTypeSwitch().playerData);
+
+        // Enviroment Data
+
+    }
+
+    private void SetPlayerData(PlayerData playerData)
+    {
+        PlayerState.Instance.currentHealth = playerData.playerStats[0];
+        PlayerState.Instance.currentStamina = playerData.playerStats[1];
+
+        Vector3 loadedPosition;
+        loadedPosition.x = playerData.playerPositionAndRotation[0];
+        loadedPosition.y = playerData.playerPositionAndRotation[1];
+        loadedPosition.z = playerData.playerPositionAndRotation[2];
+
+        Vector3 loadedRotation;
+        loadedRotation.x = playerData.playerPositionAndRotation[3];
+        loadedRotation.y = playerData.playerPositionAndRotation[4];
+        loadedRotation.z = playerData.playerPositionAndRotation[5];
+
+        PlayerState.Instance.playerBody.transform.rotation = Quaternion.Euler(loadedRotation);
+
+    }
+
+    #endregion
+
+    #endregion
+
     #region || -- To Binary Section-- ||
 
-    public void saveGameDataToBinaryFile(AllGameData gameData)
+    public void SaveGameDataToBinaryFile(AllGameData gameData)
     {
         BinaryFormatter formatBinary = new BinaryFormatter();
 
@@ -83,7 +133,7 @@ public class SaveManager : MonoBehaviour
         print("Data save at" + path);
     }
 
-    public AllGameData loadGAmeDataFromBinaryFile()
+    public AllGameData LoadGameDataFromBinaryFile()
     {
         string path = Application.persistentDataPath + "/save_Game1";
 
