@@ -8,6 +8,8 @@ public class Monster : MonoBehaviour
     public string monsterName;
     public bool playerInRange;
 
+    Animator animator;
+
     [SerializeField] int currentHealth;
     [SerializeField] int maxHealth;
 
@@ -26,7 +28,21 @@ public class Monster : MonoBehaviour
     {
         currentHealth = maxHealth;
 
+        animator = GetComponent<Animator>();
+
         monster = GetComponent<Animator>();
+    }
+
+
+    private IEnumerator delayHit()
+    {
+        yield return new WaitForSeconds(2f);
+    }
+
+    private void monsterDamateToPlayer()
+    {
+
+        PlayerState.Instance.currentHealth -= 5;
     }
 
     public void TakeDamage(int damage)
@@ -64,6 +80,10 @@ public class Monster : MonoBehaviour
         {
             Debug.Log("อยู่");
             playerInRange = true;
+            animator.SetBool("hit", true);
+            monsterDamateToPlayer();
+            delayHit();
+            animator.SetBool("hit", false);
         }
     }
 
