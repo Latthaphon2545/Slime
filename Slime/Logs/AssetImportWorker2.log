@@ -1477,3 +1477,371 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257.119183 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(96da831053a94412ba42bd263a78b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(96da831053a94412ba42bd263a78b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1d856ea82739a7ef6a1066cfbe91b4') in 0.100687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 698.045966 seconds.
+  path: Assets/Fonts/bloodyslime-font
+  artifactKey: Guid(06ce1d14a384f4587944370ca9fa66a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/bloodyslime-font using Guid(06ce1d14a384f4587944370ca9fa66a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970c6d18ddf84d4f00c76c219a06cf36') in 0.015087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.469282 seconds.
+  path: Assets/Fonts/bloodyslime-font/Bloodyslime-rvLp SDF.asset
+  artifactKey: Guid(6cd3257a318e0417ca288858241701a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/bloodyslime-font/Bloodyslime-rvLp SDF.asset using Guid(6cd3257a318e0417ca288858241701a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328812f6972843dbfd5233b0a3f9082b') in 0.464512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1053.050901 seconds.
+  path: Assets/Fonts/bloodyslime-font/Bloodyslime-rvLp SDF.asset
+  artifactKey: Guid(6cd3257a318e0417ca288858241701a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/bloodyslime-font/Bloodyslime-rvLp SDF.asset using Guid(6cd3257a318e0417ca288858241701a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a442b239c05236e555caa6b4be29fa4') in 0.054327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 235.528938 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat
+  artifactKey: Guid(89e8d4563aef42e4a9187c9520a7100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat using Guid(89e8d4563aef42e4a9187c9520a7100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf16ac9ac27f4647dde15891148307b') in 0.001880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063967 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/BlockingLoop.fbx
+  artifactKey: Guid(5cc53a90696edc1408fdda805eebb809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/BlockingLoop.fbx using Guid(5cc53a90696edc1408fdda805eebb809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9240a23e9fb7aaf96e8d3d0f89a3f69f') in 0.101267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/MeeleeAttack_OneHanded.fbx
+  artifactKey: Guid(b38fcdbf88f95f2468be0a4ae7aae7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/MeeleeAttack_OneHanded.fbx using Guid(b38fcdbf88f95f2468be0a4ae7aae7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd91aa204f23478ea70d32f8c8388b6') in 0.006003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/MeeleeAttack_TwoHanded.fbx
+  artifactKey: Guid(ee5e404da5ae61d4291af7340ab39b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/MeeleeAttack_TwoHanded.fbx using Guid(ee5e404da5ae61d4291af7340ab39b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d300c71b4599e9a4546acd2d509a1e') in 0.007697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004085 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/Death.fbx
+  artifactKey: Guid(2880a5c98f020b140b0fa0eaec60c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/Death.fbx using Guid(2880a5c98f020b140b0fa0eaec60c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c34c5629e9ac7c0e1f9fc0d64e0689') in 0.008362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/GetHit.fbx
+  artifactKey: Guid(f75e27afa8373234f85607c745d65beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/GetHit.fbx using Guid(f75e27afa8373234f85607c745d65beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26527c9e2eff7b8971056fa6869b1a00') in 0.009744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/PunchLeft.fbx
+  artifactKey: Guid(39da7618d46a72544b70c24a5e430ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/PunchLeft.fbx using Guid(39da7618d46a72544b70c24a5e430ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb1d25352fb5f0727d6a0490a2d3cbe') in 0.006129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002241 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/Buff.fbx
+  artifactKey: Guid(8f0e32dcca81a4e4f87c78bfe2b97005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/Buff.fbx using Guid(8f0e32dcca81a4e4f87c78bfe2b97005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b5c6b9343235e4361324b7e7892378') in 0.006589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/PunchRight.fbx
+  artifactKey: Guid(4486cfc3a1c066340b182fa51bc679ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/PunchRight.fbx using Guid(4486cfc3a1c066340b182fa51bc679ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d9eb7342f5efc2e8c4c36737c432e2') in 0.018389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx
+  artifactKey: Guid(2d0103bd53a8c2d4d9169330a96b2966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx using Guid(2d0103bd53a8c2d4d9169330a96b2966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dcd0575ff612cc18d7da28903b5f26') in 0.005488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002652 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/StunnedLoop.fbx
+  artifactKey: Guid(14ac9e875272fc34ab3fa7a3273a83ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/StunnedLoop.fbx using Guid(14ac9e875272fc34ab3fa7a3273a83ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaeec0d481154f84ce3d302944f5eff') in 0.006162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/SpinToWin_TwoHanded.fbx
+  artifactKey: Guid(ab175008c2515294a824718a7a1e5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/SpinToWin_TwoHanded.fbx using Guid(ab175008c2515294a824718a7a1e5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2232e3c70016d97990e967209526d9') in 0.005428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx
+  artifactKey: Guid(83cb8742d5b5bec4f86b2e4a26822bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx using Guid(83cb8742d5b5bec4f86b2e4a26822bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84cac2b365cba48ac87cd25ba739aad') in 0.005581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.750649 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Gathering/Gathering.fbx
+  artifactKey: Guid(94dc1b6b5c7ecbb4382f5a25d5a488f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Gathering/Gathering.fbx using Guid(94dc1b6b5c7ecbb4382f5a25d5a488f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659648eea831d77a34494bca06bc1615') in 0.006958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379709 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/FallingLoop.fbx
+  artifactKey: Guid(15e216e1b12268b4cae1302c53cc43dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/FallingLoop.fbx using Guid(15e216e1b12268b4cae1302c53cc43dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be11446bb4df6ee31884d628d6493c4') in 0.006217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/Jumps.fbx
+  artifactKey: Guid(f431314797169014584017049600a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/Jumps.fbx using Guid(f431314797169014584017049600a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080b66b0fafc80927e731954d1326f23') in 0.008790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/WalkForward.fbx
+  artifactKey: Guid(7d569195caea6364689fa56fa5f0e7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/WalkForward.fbx using Guid(7d569195caea6364689fa56fa5f0e7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16adcde4dbc06fb712fb445a2e60365d') in 0.005646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/StrafeLeft.fbx
+  artifactKey: Guid(7cf92d4881982f5488a4170ec7f8866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/StrafeLeft.fbx using Guid(7cf92d4881982f5488a4170ec7f8866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8678674fb9d8de642c00a58f04769c') in 0.006535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/WalkForwardRight.fbx
+  artifactKey: Guid(eb0874454b91c5f43b57a378839d90d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/WalkForwardRight.fbx using Guid(eb0874454b91c5f43b57a378839d90d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c2d2951575b51d020f1c6df0aed448') in 0.010765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/RunRight.fbx
+  artifactKey: Guid(23a8707d3821acf42b4929bdc13c3200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/RunRight.fbx using Guid(23a8707d3821acf42b4929bdc13c3200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f38a12fb96cc85fe0975a263a62f072') in 0.007247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/RollLeft.fbx
+  artifactKey: Guid(1d5263533c3da244d99ee40f3464e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/RollLeft.fbx using Guid(1d5263533c3da244d99ee40f3464e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee741e8a1cc5e7e17e0b94b39b847bbf') in 0.007153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003902 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/RunForward.fbx
+  artifactKey: Guid(b09d851b76d92f144abcea300e30fa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/RunForward.fbx using Guid(b09d851b76d92f144abcea300e30fa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c624ef9e36e0cfae1fd4d303cfc49a') in 0.007766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/Sprint.fbx
+  artifactKey: Guid(331325ad267979b4581ef577e6bb5edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/Sprint.fbx using Guid(331325ad267979b4581ef577e6bb5edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eff1ea03b50db40c5d538e285ba4da5') in 0.005618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/WalkBackwardRight.fbx
+  artifactKey: Guid(be84e2a3959792f4aa57054f950a3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/WalkBackwardRight.fbx using Guid(be84e2a3959792f4aa57054f950a3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfac89498513822d68ed0584bf00b2b') in 0.005849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Animations/Movement/RunLeft.fbx
+  artifactKey: Guid(5c1542a47c9dbfc4fa74c5cbe385b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Animations/Movement/RunLeft.fbx using Guid(5c1542a47c9dbfc4fa74c5cbe385b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a0352463e02171daac0f08abe027ea') in 0.010677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.317145 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures
+  artifactKey: Guid(9fcce063c50b58049b8c0bb17dc31ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures using Guid(9fcce063c50b58049b8c0bb17dc31ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4e5f4b943613faac09de4d0e12b839') in 0.004036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015589 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/bark01_bottom.tga
+  artifactKey: Guid(4e44992d8a199a546aeaaa6ebc63b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/bark01_bottom.tga using Guid(4e44992d8a199a546aeaaa6ebc63b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc1eb9a2875733e28f29014ef771b1') in 0.195873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.096594 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs
+  artifactKey: Guid(d68519dbe90a78f4fb266bbb9efe921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs using Guid(d68519dbe90a78f4fb266bbb9efe921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3601e2191eb4d096cb8a81d6bacc9a6c') in 0.002759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.846004 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame
+  artifactKey: Guid(1881cd91d01b05c47bb2c48869d8c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame using Guid(1881cd91d01b05c47bb2c48869d8c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dab2747491a7bcd7c483842ada5f1b4') in 0.000985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.106782 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/3planks_01.prefab
+  artifactKey: Guid(c0192026fedc71147bba86c7caa25cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/3planks_01.prefab using Guid(c0192026fedc71147bba86c7caa25cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85fce0ab278a14a5d0de5c82c32a591') in 0.241407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_01.prefab
+  artifactKey: Guid(a6b5d41519eefeb46be3660d3a128ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_01.prefab using Guid(a6b5d41519eefeb46be3660d3a128ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a96c2bb47d4b0a1c13a6258784d28') in 0.017562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/house_01.prefab
+  artifactKey: Guid(254bd85c722f56a45b620ef7ca823317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/house_01.prefab using Guid(254bd85c722f56a45b620ef7ca823317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1f491a7acdc7b78a0c731aea2a22a4') in 0.084041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_08.prefab
+  artifactKey: Guid(b7803faee2893e9488d3c943ba5944ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_08.prefab using Guid(b7803faee2893e9488d3c943ba5944ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5185353ffa6cbfa86bd94e8ba4c618a') in 0.007051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_01.prefab
+  artifactKey: Guid(a0a878f902f347242a034838ad481be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_01.prefab using Guid(a0a878f902f347242a034838ad481be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aedbaf02a867552fa610a03397b9e2') in 0.006509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_03.prefab
+  artifactKey: Guid(dff9d0bdb58139842bb1e36810f81a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_03.prefab using Guid(dff9d0bdb58139842bb1e36810f81a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630e7743a08ec837be25582add445f9a') in 0.012471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/little_stone_01.prefab
+  artifactKey: Guid(502c111240dcc8347b74d82f997d35a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/little_stone_01.prefab using Guid(502c111240dcc8347b74d82f997d35a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa88d28cd163e0e4517716b83ae64c2') in 0.007040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_03.prefab
+  artifactKey: Guid(9298fd130b9a22545a727f0f4bea9e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/stone_03.prefab using Guid(9298fd130b9a22545a727f0f4bea9e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0706ee790273dab9e7508aff8b62e94a') in 0.006486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001051 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_07.prefab
+  artifactKey: Guid(26ce4e99725dfcb49b7579d135424f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_07.prefab using Guid(26ce4e99725dfcb49b7579d135424f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd421568409dd4ed3aa28de33a68fdfa6') in 0.007533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_04.prefab
+  artifactKey: Guid(86eb686f90eb89c4483e7f05a0bb902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_04.prefab using Guid(86eb686f90eb89c4483e7f05a0bb902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14266d9ad1c7fdbf2ba44278503b75c0') in 0.006862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/cart_01.prefab
+  artifactKey: Guid(f5bd1b648c2766b40805fae6cab6f017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/cart_01.prefab using Guid(f5bd1b648c2766b40805fae6cab6f017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c5626ec65583accb96342d2e4984b') in 0.030473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_02.prefab
+  artifactKey: Guid(bc8fd101120683c478ba6672d19545d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/flower_02.prefab using Guid(bc8fd101120683c478ba6672d19545d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d320c920718df1511815aef5bfad39') in 0.008681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002217 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_05.prefab
+  artifactKey: Guid(dcff0303240db084abfe409d9d186f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_05.prefab using Guid(dcff0303240db084abfe409d9d186f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27a561d5072099c8c3c298dd48136e7') in 0.005535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_10.prefab
+  artifactKey: Guid(6f384c885341c7b499cc29581cede1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VanillaArt_MeadevilPack_FREE/Prefabs/ReadyToGame/fence_10.prefab using Guid(6f384c885341c7b499cc29581cede1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f67ad47f8ace55f0f5574e3de2fe13c') in 0.005940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.874182 seconds.
+  path: Assets/assetFormUnity/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Meshes_ArmorsHumans
+  artifactKey: Guid(41042fc50436c7e418dd46b4a5c7c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Meshes_ArmorsHumans using Guid(41042fc50436c7e418dd46b4a5c7c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c475fe2696ff8004ee0dbc8259ba118c') in 0.001672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.041457 seconds.
+  path: Assets/assetFormUnity/Materials/Scenes
+  artifactKey: Guid(aa267be1d2f16479daf4416da8bcd1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/Materials/Scenes using Guid(aa267be1d2f16479daf4416da8bcd1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2707cdf8ce0bd2b15989e739c40f4221') in 0.001987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.467697 seconds.
+  path: Assets/assetFormUnity/The Legend of Slim/00 Preview all
+  artifactKey: Guid(ba703c9eb25842a4cb3d3e571e0eed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/The Legend of Slim/00 Preview all using Guid(ba703c9eb25842a4cb3d3e571e0eed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23307a706ee831857c89db15387034') in 0.001528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.384893 seconds.
+  path: Assets/assetFormUnity/The Legend of Slim/01 Original/Black
+  artifactKey: Guid(090de9a0e9973fb429dae3965f95e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetFormUnity/The Legend of Slim/01 Original/Black using Guid(090de9a0e9973fb429dae3965f95e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569ff2ad90cfa0057cca05c835798096') in 0.002065 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001188 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2a0a3b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/g.a_me__/Documents/GitHub/Slime/Slime/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/g.a_me__/Documents/GitHub/Slime/Slime/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (305ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (103.1 KB). Loaded Objects now: 4379.
+Memory consumption went from 0.87 GB to 0.87 GB.
+Total: 16.756667 ms (FindLiveObjects: 1.308042 ms CreateObjectMapping: 0.345792 ms MarkObjects: 14.984833 ms  DeleteObjects: 0.117333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
