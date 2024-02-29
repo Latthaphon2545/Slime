@@ -42,7 +42,7 @@ public class inGameMenuManager : MonoBehaviour
             SelectionManager.Instance.DisableSelection();
             SelectionManager.Instance.GetComponent<SelectionManager>().enabled = false;
         }
-        else if (Input.GetKeyDown(KeyCode.M) && isMenuIsOpen)
+        else if ((Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Escape)) && isMenuIsOpen)
         {
 
             saveMenu.SetActive(false);

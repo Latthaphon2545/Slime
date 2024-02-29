@@ -81,7 +81,7 @@ public class InventorySystem : MonoBehaviour
             SelectionManager.Instance.GetComponent<SelectionManager>().enabled = false;
 
         }
-        else if (Input.GetKeyDown(KeyCode.I) && isOpen)
+        else if ((Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Escape)) && isOpen)
         {
             inventoryScreenUI.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;

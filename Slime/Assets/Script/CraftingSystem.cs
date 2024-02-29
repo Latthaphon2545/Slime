@@ -65,17 +65,17 @@ public class CraftingSystem : MonoBehaviour
 
     private void openRefindUi()
     {
-        toolUI.SetActive(false);
-        RefindUI.SetActive(true);
-        SurvivlaUI.SetActive(false);
-        Debug.Log("Eiei");
+        //toolUI.SetActive(false);
+        //RefindUI.SetActive(true);
+        //SurvivlaUI.SetActive(false);
+        //Debug.Log("Eiei");
     }
 
     private void openSurvivlaUi()
     {
-        toolUI.SetActive(false);
-        RefindUI.SetActive(false);
-        SurvivlaUI.SetActive(true);
+        //toolUI.SetActive(false);
+        //RefindUI.SetActive(false);
+        //SurvivlaUI.SetActive(true);
     }
 
     private void openToolsUi()
@@ -117,7 +117,7 @@ public class CraftingSystem : MonoBehaviour
             Cursor.visible = true;
 
         }
-        else if (Input.GetKeyDown(KeyCode.C) && isOpen)
+        else if ((Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Escape)) && isOpen)
         {
             craftingScreenUI.SetActive(false);
 
