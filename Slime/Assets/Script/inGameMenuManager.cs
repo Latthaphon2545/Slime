@@ -29,7 +29,7 @@ public class inGameMenuManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.M)  && !isMenuIsOpen)
+        if (Input.GetKeyDown(KeyCode.M) && !isMenuIsOpen)
         {
             uiCanvas.SetActive(false);
             menuCanvas.SetActive(true);
@@ -42,7 +42,7 @@ public class inGameMenuManager : MonoBehaviour
             SelectionManager.Instance.DisableSelection();
             SelectionManager.Instance.GetComponent<SelectionManager>().enabled = false;
         }
-        else if(Input.GetKeyDown(KeyCode.M) && isMenuIsOpen)
+        else if (Input.GetKeyDown(KeyCode.M) && isMenuIsOpen)
         {
 
             saveMenu.SetActive(false);
@@ -54,7 +54,7 @@ public class inGameMenuManager : MonoBehaviour
 
             isMenuIsOpen = false;
 
-            if(CraftingSystem.Instance.isOpen == false && InventorySystem.Instance.isOpen == false)
+            if (CraftingSystem.Instance.isOpen == false && InventorySystem.Instance.isOpen == false)
             {
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
@@ -64,10 +64,4 @@ public class inGameMenuManager : MonoBehaviour
             SelectionManager.Instance.GetComponent<SelectionManager>().enabled = true;
         }
     }
-
-    public void TempSaveGame()
-    {
-        SaveManager.Instance.SaveGame();
-    }
-
 }
