@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
@@ -74,7 +75,7 @@ public class SaveManager : MonoBehaviour
 
     public AllGameData LoadindTypeSwitch()
     {
-        if(isSavingJson)
+        if (isSavingJson)
         {
             AllGameData gameData = LoadGameDataFromBinaryFile(); // ใช้ไปก่อน
             return gameData;
@@ -110,9 +111,24 @@ public class SaveManager : MonoBehaviour
         loadedRotation.y = playerData.playerPositionAndRotation[4];
         loadedRotation.z = playerData.playerPositionAndRotation[5];
 
+        PlayerState.Instance.playerBody.transform.position = loadedPosition;
         PlayerState.Instance.playerBody.transform.rotation = Quaternion.Euler(loadedRotation);
+    }
+
+    public void StartLoadGame()
+    {
+        SceneManager.LoadScene("Game");
+        StartCoroutine(DelayLaoding()); ;
+    }
+
+    private IEnumerator DelayLaoding()
+    {
+        yield return new WaitForSeconds(1f);
+
+        LoadGame();
 
     }
+
 
     #endregion
 
@@ -123,14 +139,13 @@ public class SaveManager : MonoBehaviour
     public void SaveGameDataToBinaryFile(AllGameData gameData)
     {
         BinaryFormatter formatBinary = new BinaryFormatter();
-
         string path = Application.persistentDataPath + "/save_Game1";
-        FileStream stream = new FileStream(path, FileMode.Create);
 
-        formatBinary.Serialize(stream, gameData);
-        stream.Close();
-
-        print("Data save at" + path);
+        using (FileStream stream = new FileStream(path, FileMode.Create))
+        {
+            formatBinary.Serialize(stream, gameData);
+            print("Data saved at " + path);
+        }
     }
 
     public AllGameData LoadGameDataFromBinaryFile()
@@ -140,15 +155,27 @@ public class SaveManager : MonoBehaviour
         if (File.Exists(path))
         {
             BinaryFormatter formatBinary = new BinaryFormatter();
-            FileStream stream = new FileStream(path, FileMode.Create);
+            FileStream stream = new FileStream(path, FileMode.Open);
 
-            AllGameData data = formatBinary.Deserialize(stream) as AllGameData;
-            stream.Close();
+            if (stream.Length != 0)
+            {
+                AllGameData data = formatBinary.Deserialize(stream) as AllGameData;
+                stream.Close();
 
-            return data;
+                print("Data loaded from " + path);
+
+                return data;
+            }
+            else
+            {
+                print("File is empty");
+                stream.Close();
+                return null;
+            }
         }
         else
         {
+            print("File not found");
             return null;
         }
     }

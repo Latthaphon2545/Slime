@@ -15,7 +15,6 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     Transform startParent;
 
 
-
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
