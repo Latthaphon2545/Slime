@@ -31,6 +31,8 @@ public class InventorySystem : MonoBehaviour
     public Image pickupImg;
     private Coroutine pickupAlertCoroutine;
 
+    public List<string> itemsPickedup;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -55,9 +57,9 @@ public class InventorySystem : MonoBehaviour
 
     private void PopulateSlotList()
     {
-        foreach(Transform child in bagUI.transform)
+        foreach (Transform child in bagUI.transform)
         {
-            if(child.CompareTag("Slot"))
+            if (child.CompareTag("Slot"))
             {
                 slotList.Add(child.gameObject);
             }
@@ -93,8 +95,11 @@ public class InventorySystem : MonoBehaviour
 
     public void AddToInventory(String itemName)
     {
+        if (!SaveManager.Instance.isLoading)
+        {
+            SoundManager.Instance.playSound(SoundManager.Instance.pickupSound);
+        }
 
-        SoundManager.Instance.playSound(SoundManager.Instance.pickupSound);
 
         whatSlotToEquip = FindNextEmptySlot();
 
@@ -113,7 +118,10 @@ public class InventorySystem : MonoBehaviour
 
     void TriggerPickupPopUp(string itemName, Sprite itemSpriteImg)
     {
-        pickupAlert.SetActive(true);
+        if (!SaveManager.Instance.isLoading)
+        {
+            pickupAlert.SetActive(true);
+        }
 
         pickupName.text = itemName;
         pickupImg.sprite = itemSpriteImg;
@@ -135,9 +143,9 @@ public class InventorySystem : MonoBehaviour
 
     private GameObject FindNextEmptySlot()
     {
-        foreach(GameObject slot in slotList)
+        foreach (GameObject slot in slotList)
         {
-            if(slot.transform.childCount == 0)
+            if (slot.transform.childCount == 0)
             {
                 return slot;
             }
@@ -149,7 +157,7 @@ public class InventorySystem : MonoBehaviour
     public bool checkIsFull()
     {
         int counter = 0;
-        foreach(GameObject slot in slotList)
+        foreach (GameObject slot in slotList)
         {
             if (slot.transform.childCount > 0)
             {
@@ -158,7 +166,7 @@ public class InventorySystem : MonoBehaviour
         }
 
 
-        if(counter == slotList.Count)
+        if (counter == slotList.Count)
         {
             return true;
         }
@@ -176,7 +184,7 @@ public class InventorySystem : MonoBehaviour
         {
             if (slotList[i].transform.childCount > 0)
             {
-                if (slotList[i].transform.GetChild(0).name == nameToRemove + "(Clone)" && counter !=0 )
+                if (slotList[i].transform.GetChild(0).name == nameToRemove + "(Clone)" && counter != 0)
                 {
                     DestroyImmediate(slotList[i].transform.GetChild(0).gameObject);
 
@@ -200,7 +208,7 @@ public class InventorySystem : MonoBehaviour
             {
                 string name = slot.transform.GetChild(0).name;
                 string str = "(Clone)";
-                string result = name.Replace(str,"");
+                string result = name.Replace(str, "");
 
                 itemList.Add(result);
             }

@@ -9,7 +9,7 @@ public class AllGameData
 {
     public PlayerData playerData;
 
-    //public EniromentData eniromentData;
+    public EniromentData eniromentData;
 
     //public ConstructionData constructionData;
    

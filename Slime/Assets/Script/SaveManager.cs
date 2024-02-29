@@ -30,6 +30,8 @@ public class SaveManager : MonoBehaviour
 
     string fileName = "save_Game1";
 
+    public bool isLoading;
+
     private void Start()
     {
         jsonPathProject = Application.dataPath + Path.AltDirectorySeparatorChar;
@@ -47,9 +49,19 @@ public class SaveManager : MonoBehaviour
     public void SaveGame(int slotNumber)
     {
         AllGameData data = new AllGameData();
+
         data.playerData = GetPlayerData();
 
+        data.eniromentData = GetEniromentData();
+
         SavingTypeSwitch(data, slotNumber);
+    }
+
+    private EniromentData GetEniromentData()
+    {
+        List<string> itemsPickedUp = InventorySystem.Instance.itemsPickedup;
+
+        return new EniromentData(itemsPickedUp);
     }
 
     private PlayerData GetPlayerData()
@@ -68,7 +80,28 @@ public class SaveManager : MonoBehaviour
         playerPosition[4] = PlayerState.Instance.playerBody.transform.rotation.y;
         playerPosition[5] = PlayerState.Instance.playerBody.transform.rotation.z;
 
-        return new PlayerData(playerStats, playerPosition);
+        string[] inventory = InventorySystem.Instance.itemList.ToArray();
+        string[] quickSlot = GetQuickSlotContent();
+
+        return new PlayerData(playerStats, playerPosition, inventory, quickSlot);
+    }
+
+    private string[] GetQuickSlotContent()
+    {
+        List<string> temp = new List<string>();
+
+        foreach(GameObject slot in EquipSystem.Instance.quickSlotsList)
+        {
+            if(slot.transform.childCount != 0)
+            {
+                string itemName = slot.transform.GetChild(0).name;
+                string str = "(Clone)";
+                string result = itemName.Replace(str, "");
+                temp.Add(result);
+            }
+        }
+
+        return temp.ToArray();
     }
 
     public void SavingTypeSwitch(AllGameData gameData, int slotNumber)
@@ -107,7 +140,26 @@ public class SaveManager : MonoBehaviour
         SetPlayerData(LoadindTypeSwitch(slotNumber).playerData);
 
         // Enviroment Data
+        SetEnviromentData((LoadindTypeSwitch(slotNumber).eniromentData));
 
+        isLoading = false;
+
+    }
+
+    private void SetEnviromentData(EniromentData environmentData)
+    {
+        foreach(Transform itemType in EnviromentManager.Instance.allItem.transform)
+        {
+            foreach(Transform item in itemType.transform)
+            {
+                if(environmentData.pickedupItems.Contains(item.name))
+                {
+                    Destroy(item.gameObject);
+                }
+            }
+        }
+
+        InventorySystem.Instance.itemsPickedup = environmentData.pickedupItems;
     }
 
     private void SetPlayerData(PlayerData playerData)
@@ -127,10 +179,28 @@ public class SaveManager : MonoBehaviour
 
         PlayerState.Instance.playerBody.transform.position = loadedPosition;
         PlayerState.Instance.playerBody.transform.rotation = Quaternion.Euler(loadedRotation);
+
+
+        // inventory
+        foreach (string item in playerData.inventoryContent)
+        {
+            InventorySystem.Instance.AddToInventory(item);
+        }
+
+        // quick slot
+        foreach (string item in playerData.quickSlotContent)
+        {
+            GameObject availableSlot = EquipSystem.Instance.FindNextEmptySlot();
+
+            var itemToAdd = Instantiate(Resources.Load<GameObject>(item));
+
+            itemToAdd.transform.SetParent(availableSlot.transform, false);
+        }
     }
 
     public void StartLoadGame(int slotNumber)
     {
+        isLoading = true;
         SceneManager.LoadScene("Game");
         StartCoroutine(DelayLaoding(slotNumber)); ;
     }
@@ -197,20 +267,19 @@ public class SaveManager : MonoBehaviour
 
     #endregion
 
-
     #region || -- To Json Section-- ||
 
     public void SaveGameDataToJsonFile(AllGameData gameData, int slotNumber)
     {
         string json = JsonUtility.ToJson(gameData);
 
-        string encrypted = EncryptionDecryption(json);
+        // string encrypted = EncryptionDecryption(json);
 
         string path = jsonPathProject + fileName + slotNumber + ".json";
 
         using (StreamWriter stream = new StreamWriter(path))
         {
-            stream.Write(encrypted);
+            stream.Write(json);
             print("Data saved at " + path);
         }
     }
@@ -223,9 +292,9 @@ public class SaveManager : MonoBehaviour
         {
             string json = stream.ReadToEnd();
 
-            string decrypted = EncryptionDecryption(json);
+            // string decrypted = EncryptionDecryption(json);
 
-            AllGameData data = JsonUtility.FromJson<AllGameData>(decrypted);
+            AllGameData data = JsonUtility.FromJson<AllGameData>(json);
             print("Data loaded from " + path);
 
             return data;
@@ -233,7 +302,6 @@ public class SaveManager : MonoBehaviour
     }
 
     #endregion
-
 
     #region || -- Setting Section -- ||
 
@@ -296,7 +364,6 @@ public class SaveManager : MonoBehaviour
 
     #endregion
 
-
     #region || -- Encryption -- ||
 
     public string EncryptionDecryption(string jsonString)
@@ -313,7 +380,6 @@ public class SaveManager : MonoBehaviour
 
 
     #endregion
-
 
     #region || -- Utility -- ||
 
