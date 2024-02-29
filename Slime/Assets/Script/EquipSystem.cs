@@ -97,6 +97,9 @@ public class EquipSystem : MonoBehaviour
 
                 Text toBeChange = numberHolder.transform.Find("number" + numberPress).transform.Find("Text").GetComponent<Text>();
                 toBeChange.color = Color.white;
+
+                Debug.Log("เลือกแล้ว: " + selectedItem);
+
             }
             else // Try to select same slot
             {
@@ -118,6 +121,8 @@ public class EquipSystem : MonoBehaviour
                 {
                     child.transform.Find("Text").GetComponent<Text>().color = Color.yellow;
                 }
+
+                Debug.Log("ยกเลิกล่ะ: " + selectedItem);
             }
         }
     }
@@ -224,5 +229,42 @@ public class EquipSystem : MonoBehaviour
         }
     }
 
+    public bool IsHoldingWeapon()
+    {
+        Debug.Log("selectedItem: " + selectedItem);
+        if (selectedItem != null)
+       {
+            Weapon weaponComponent = selectedItem.GetComponent<Weapon>();
+            Debug.Log("weaponComponent: " + weaponComponent);
+
+            if (weaponComponent != null)
+            {
+                Debug.Log("ถืออยู่");
+                return true;
+            }
+            else
+            {
+                Debug.Log("บ่ถืออยู่");
+                return false;
+            }
+        }
+       else
+       {
+            Debug.Log("บ่ถืออยู่");
+            return false;
+       }
+    }
+
+    public int GetWeaponDamage()
+    {
+        if (selectedItem != null)
+        {
+            return selectedItem.GetComponent<Weapon>().weaponDamage;
+        }
+        else
+        {
+            return 0;
+        }
+    }
 
 }

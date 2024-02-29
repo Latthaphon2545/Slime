@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 
 public class SelectionManager : MonoBehaviour
 {
@@ -107,6 +108,26 @@ public class SelectionManager : MonoBehaviour
                 handVisible = false;
             }
 
+
+            // Monster
+            Monster monster = selectionTransform.GetComponent<Monster>();
+
+            if(monster && monster.playerInRange)
+            {
+                interaction_text.text = monster.monsterName;
+                interaction_Info_UI.SetActive(true);
+
+                if (Input.GetMouseButtonDown(0) && EquipSystem.Instance.IsHoldingWeapon())
+                {
+                    StartCoroutine(DealDamage(monster, 0.3f, EquipSystem.Instance.GetWeaponDamage()));
+                }
+                else
+                {
+                    interaction_text.text = "";
+                    interaction_Info_UI.SetActive(false);
+                }
+            }
+
         }
         else
         {
@@ -119,6 +140,14 @@ public class SelectionManager : MonoBehaviour
             handVisible = false;
         }
     }
+
+    IEnumerator DealDamage(Monster monster, float delay, int damage)
+    {
+        yield return new WaitForSeconds(delay);
+
+        monster.TakeDamage(damage);
+    }
+
 
     public void DisableSelection()
     {

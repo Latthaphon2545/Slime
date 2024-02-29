@@ -32,6 +32,8 @@ public class SaveManager : MonoBehaviour
 
     public bool isLoading;
 
+    public Canvas loadinfCanvas;
+
     private void Start()
     {
         jsonPathProject = Application.dataPath + Path.AltDirectorySeparatorChar;
@@ -144,6 +146,8 @@ public class SaveManager : MonoBehaviour
 
         isLoading = false;
 
+        DisactiveLoadingScreen();
+
     }
 
     private void SetEnviromentData(EniromentData environmentData)
@@ -200,9 +204,12 @@ public class SaveManager : MonoBehaviour
 
     public void StartLoadGame(int slotNumber)
     {
+        ActiveLoadingScreen();
+
         isLoading = true;
         SceneManager.LoadScene("Game");
         StartCoroutine(DelayLaoding(slotNumber)); ;
+
     }
 
     private IEnumerator DelayLaoding(int slotNumber)
@@ -425,6 +432,30 @@ public class SaveManager : MonoBehaviour
     {
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
+    }
+
+
+    #endregion
+
+    #region || -- Loading Screen -- ||
+
+    public void ActiveLoadingScreen()
+    {
+        loadinfCanvas.gameObject.SetActive(true);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        // music loading
+
+        // animation
+
+        // show
+    }
+
+    public void DisactiveLoadingScreen()
+    {
+        loadinfCanvas.gameObject.SetActive(false);
     }
 
 

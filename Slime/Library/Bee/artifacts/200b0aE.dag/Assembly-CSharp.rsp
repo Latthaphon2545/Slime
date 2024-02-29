@@ -365,6 +365,7 @@
 "Assets/Kawaii Slimes/Scripts/AI/EnemyAi.cs"
 "Assets/Kawaii Slimes/Scripts/AI/Face.cs"
 "Assets/Kawaii Slimes/Scripts/GameManager.cs"
+"Assets/Monster.cs"
 "Assets/Script/AI_Movement.cs"
 "Assets/Script/AllGameData.cs"
 "Assets/Script/BluePrint.cs"
@@ -396,6 +397,7 @@
 "Assets/Script/StamonaBar.cs"
 "Assets/Script/TrashSlot.cs"
 "Assets/Script/TreeHealthBar.cs"
+"Assets/Script/Weapon.cs"
 -langversion:9.0
 
 /deterministic
