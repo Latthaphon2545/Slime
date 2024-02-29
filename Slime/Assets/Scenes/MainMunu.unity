@@ -1547,7 +1547,7 @@ GameObject:
   - component: {fileID: 443001555}
   - component: {fileID: 443001554}
   m_Layer: 0
-  m_Name: MainMenuSaveManager
+  m_Name: SaveManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1562,9 +1562,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 443001553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78fd202ccdc34bd39261cd6834e9ea5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c97ec3dc77054c019f4b94dcd03fc0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSavingJson: 0
 --- !u!4 &443001555
 Transform:
   m_ObjectHideFlags: 0
