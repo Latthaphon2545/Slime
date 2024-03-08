@@ -36,7 +36,6 @@ public class PlayerState : MonoBehaviour
         currentStamina = maxStamina;
     }
 
-    // Update is called once per frame
     void Update()
     {
 

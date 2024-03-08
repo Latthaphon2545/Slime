@@ -61,7 +61,7 @@ public class randomPrefab : MonoBehaviour
 
             for (int i = 0; i < numberOfMonsters; i++)
             {
-                int randomIndex = Random.Range(0, treePrefabs.Count); // Choose a random monster prefab from the list
+                int randomIndex = Random.Range(0, treePrefabs.Count); 
                 GameObject selectedPrefab = treePrefabs[randomIndex];
 
                 float x = Random.Range(terrainCollider.bounds.min.x, terrainCollider.bounds.min.x + terrainWidth);
